@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="G:/WorkShopTasksUsingSHAFT-Engine">
+        <classes>
+            <class name="Tasks.TestTask1">
+                <methods>
+                    <include name="navigateToDuckDuckGoAndCheckTitle"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask2">
+                <methods>
+                    <include name="navigateToDuckDuckGoAndCheckLogo"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask3">
+                <methods>
+                    <include name="searchForQueryAndCheckFirstResult"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask4">
+                <methods>
+                    <include name="navigateToDuckDuckGoAndCheckFourthResultText"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask5">
+                <methods>
+                    <include name="navigateToDuckDuckGoAndCheckSecondResultLink"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask6">
+                <methods>
+                    <include name="navigateToInternetHerokuAppAndAssertTheCheckBoxesIsChecked"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask7">
+                <methods>
+                    <include name="navigateToW3schoolsAndAssertThatTheCountryForTheCompanyErnstHandelIsAustria"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask8">
+                <methods>
+                    <include name="navigateToInternetHerokuAppAndVerifyFileUploadedSuccessfully"/>
+                </methods>
+            </class>
+            <class name="Tasks.TestTask9">
+                <methods>
+                    <include name="navigateToDroppableAndAssertTheTextChangedAfterDragAndDrop"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

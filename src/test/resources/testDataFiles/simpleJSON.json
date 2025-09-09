@@ -1,0 +1,9 @@
+{
+  "searchQuery": "Selenium WebDriver",
+  "searchQuery2": "TestNG",
+  "searchQuery3": "Cucumber IO",
+  "expectedFourthResultText": "DuckDuckGo",
+  "expectedSecondResultLink": "https://www.linkedin.com",
+  "expectedCompanyErnstHandel": "Austria",
+  "unexpectedInFirstResult": "Nope"
+}
